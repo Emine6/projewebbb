@@ -1,0 +1,17 @@
+.eğitim-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: normal;
+    margin-top: 30px;
+}
+.eğitimresim{
+    width: 100%;
+    height: 300px;
+ border-radius: 20px;
+}
+.eğitimtitle{
+
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+}

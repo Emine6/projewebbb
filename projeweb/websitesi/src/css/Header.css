@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    align-items: center; /* Dikey hizalama */
+    justify-content: space-between; /* Yazılar ve başlık arasına boşluk */
+    background-color:#8d6b0633;
+    padding: 10px 20px;
+  }
+  
+  .header .leftside img {
+    max-height: 100px; /* Logonun maksimum yüksekliği */
+    width: auto; /* Genişliği orantılı tut */
+    object-fit: contain; /* Resmin taşmasını önle */
+    margin-left: 10px;
+  }
+  .header .leftside{
+    display: flex; /* Flexbox kullanımı */
+    align-items: center; /* Dikey hizalama */
+    margin-right: auto; /* Logoyu sola itmek için */
+  }
+  .header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end; /* Menü elemanlarını sağa hizala */
+    margin-right: 10px; 
+    margin-left: 30px;/* Menüyle sağ kenar arasındaki boşluk */
+  }
+  
+  .header ul li {
+    margin: 0px 15px; /* Sağ ve sol boşluk */
+    
+  }
+  
+  .header ul li a {
+    text-decoration: none;
+    color: #9a1a1a;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  
+  .header ul li a:hover {
+    color:goldenrod;
+    transition: 0.5s;
+  }
+  
+
+ 
